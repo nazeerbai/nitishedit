@@ -1,0 +1,44 @@
+# Site
+name: "WatchNationPro.com"
+title: "Home | WatchNationPro.com "
+description: "Love watches? Look for the perfect watch guide, tips and reviews to save money, make life easier, work smarter and earn more money and respect following the latest trends in watch industry."
+meta_description: "Love watches? Look for the perfect watch guide, tips and reviews to save money, make life easier, work smarter and earn more money and respect following the latest trends in watch industry."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: '/'
+email: 'jumpingjoytechsolutions@gmail.com'
+google_analytics: 'G-XXXXXXXXX'
+disqus: 'demowebsite'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  JJ:
+    name: JJ
+    display_name: JJ
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: jumpingjoytechsolutions@gmail.com
+    web: https://
+    description: "JJ is the Administrator of the blogs at TechWritersNation.com."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Other
+markdown: kramdown
+highlighter: rouge
